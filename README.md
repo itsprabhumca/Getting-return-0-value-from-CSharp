@@ -1,5 +1,5 @@
 # Getting-return-0-value-from-CSharp
-Getting return 0 value from C# Entry Point Method using Parent and Child Programs
+## Getting return 0 value from C# Entry Point Method using Parent and Child Programs
 
 Hello everyone, as we know that in C# Apps (both Console & Win) Entry Point Method refers to the Main() of a program. When the application is started, the Main method is the first method that is invoked. This Main() do have return type as “int” and many of the time we noticed that the return value for this Main() seems to 0. So let’s understand the behind the scene of having this return value in Main().
 
@@ -39,7 +39,7 @@ Considering Parent Program as Windows App and Child as a Console App. Please fol
    
    b)	Hit enter on the console app , as we written Console.ReadKey() so the Child App (Console app) still remains running, to resume back to the Parent Program (Windows App), Just hit enter on the Console App. Do not press any key except enter, again look at the breakpoint, this time will be getting the exit code as a 0.. This Is the actual benefit of having return values on the Main().
    
-    ![6](https://user-images.githubusercontent.com/31686277/45375150-c32cea00-b611-11e8-97fa-6222da8e8385.JPG)
+   ![6](https://user-images.githubusercontent.com/31686277/45376059-7dbdec00-b614-11e8-9ed9-84ff5fc9508a.JPG)
     
    c)	Final output:
    
